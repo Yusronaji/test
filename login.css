@@ -1,0 +1,37 @@
+body {
+    font-family: arial, sans-serif;
+    background-image: url("Foto/baground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  .container {
+    width: 300px;
+    padding: 16px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+
+  input[type="text"],
+  input[type="pasword"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
